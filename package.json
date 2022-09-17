@@ -4,7 +4,7 @@
   "description": "JetBrains academy medium exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/SitoNumbis/sito-currency-converter#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
     "sync-input": "https://github.com/hyperskill/sync-input/archive/v1.tar.gz"
   }
 }
